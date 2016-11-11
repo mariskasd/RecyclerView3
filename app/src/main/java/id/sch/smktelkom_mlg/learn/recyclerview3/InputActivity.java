@@ -68,6 +68,7 @@ public class InputActivity extends AppCompatActivity {
         etJudul.setText(hotel.judul);
         etDeskripsi.setText(hotel.deskripsi);
         etDetail.setText(hotel.detail);
+        etLokasi.setText(hotel.lokasi);
         uriFoto = Uri.parse(hotel.foto);
         ivFoto.setImageURI(uriFoto);
     }
